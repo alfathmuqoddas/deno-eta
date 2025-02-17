@@ -1,0 +1,9 @@
+<html>
+<head>
+  <title><%= it.post.title %></title>
+</head>
+<body>
+<h1><%= it.post.title %></h1>
+<p><%= it.post.body %></p>
+</body>
+</html>

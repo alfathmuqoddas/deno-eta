@@ -1,0 +1,15 @@
+<html>
+<head>
+  <title>Eta Posts</title>
+</head>
+<body>
+<section>
+  <h1>Posts</h1>
+  <ul>
+  <% it.posts.forEach(function(post){ %>
+    <li><a href="/posts/<%= post.id %>"><%= post.title %></a></li>
+  <% }) %>
+</ul>
+</section>
+</body>
+</html>
